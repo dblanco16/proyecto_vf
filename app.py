@@ -32,7 +32,7 @@ label_encoder_sub_position = load("le_sub_position.sav")
 label_encoder_position = load("le_position.sav")
 
 # Cargar modelo de predicción
- model = load_model("modelo.joblib")
+model = load_model("modelo.joblib")
 
 # Estado inicial: una variable en sesión
 if "page" not in st.session_state:
